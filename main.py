@@ -39,7 +39,7 @@ texte_art_ascii = "\033[91m" + """
 '---'          `--`---'                          ;   |  .'                                    \   \  /    `----'             
                                                  `---'                                         `--`-'                     
 """ + "\033[0m"  # Réinitialiser la couleur à la valeur par défaut
-
+print(texte_art_ascii)
 # Boucle principale du menu
 while True:
     afficher_menu()
